@@ -25,7 +25,11 @@ SECRET_KEY = 'bn%(z2yunp!u2u^#e81h8e%9c2fn%+#a-vda+k^7qq3d(o=23j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.webperson.us']  # TODO: find a better domain name
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'localhost',
+                 '.webperson.us',
+                 'webperson.herokuapp.com',
+                 '.webperson.org']  # TODO: find a better domain name
 
 
 # Application definition
